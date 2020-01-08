@@ -27,7 +27,7 @@ def parsePrice():
 
 def send_email(subject, msg):
     try:
-        EMAIL_ADDRESS = ("alexnt2357@gmail.com")
+        EMAIL_ADDRESS = ("use your email")
         EMAIL_PASSWORD = ("wgbynrdlrcpbmkbk")
         server = smtplib.SMTP('smtp.gmail.com:587')
         server.ehlo()
